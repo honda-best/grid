@@ -42,7 +42,7 @@ html, body {
 .first {
     display: flex;
     flex-direction: row;
-    height: 16%;
+    height: 17%;
     width: 100%;
     justify-content: space-around;
 }
