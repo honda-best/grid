@@ -2,57 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
     <title>Grid</title>
     <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="media.css"> 
+	<!--<link rel="stylesheet" href="media.css">  -->
 </head>
 <body>
-   
-    <div class="container">
-        <div class="menu_logo">
-            <div class="first">
-            <div class="logo"> <img src="img/WD.png" alt="Grid"> </div>
-            <div class="menu">
-                <ul class="nav_menu">
-                    <li class="menu__list"><a href="#" class="menu__link"> ГЛАВНАЯ</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link"> ОБ АВТОРЕ</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link"> РАБОТЫ</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link"> ПРОЦЕСС</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link"> КОНТАКТЫ</a></li>
-                </ul>
-            </div>
-            </div>
-            <div class="present">
-            <div class="img"> <img src="img/Frame.png" alt="Grid"> </div>
-                <div class="design">
-                <h1>Дизайн и верстка</h1>
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                    <button class="button button_write">Написать мне</button>
+    <div class="wrapper">
+        <header class="header">
+            <a href="" class="header__logo"><img src="img/WD.png" alt="Grid"></a>                    
+                <nav class="menu">
+                    <ul class="header_menu">
+                        <li>
+                            <a href="#" class="header__link">ГЛАВНАЯ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">ОБ АВТОРЕ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">РАБОТЫ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">ПРОЦЕСС</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>    
+
+        <main class="main">
+            <section class="content">
+                <div class="present">
+                    <div class="present__img">
+                        <div class="img">
+                            <img src="img/Frame.png" alt="Grid">
+                        </div>
+                    </div>
+                        <div class="design">
+                            <h1 class="content__title">Дизайн и верстка</h1>
+                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                                <button class="button button_write">Написать мне    </button>
+                        </div>
                 </div>
+    
+            <div class="about_me">
+                <div class="text">
+                    <h2> Обо мне </h2> 
+                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                                Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                </div>            
             </div>
-        </div>
+        </section>
 
-        <div class="about_me">
-            <div class="text">
-                <h2> Обо мне </h2> 
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            </div>            
-        </div>
-
-        <div class="project">
-            <div class="gallery">   
-                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
-                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
-                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
-                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
-                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
-                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>                  
+        <section class="content__2">
+            <div class="project">
+                <div class="gallery">
+                    <img class="img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ </br> проектов</p>
+                    <img class="img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ </br>проектов</p>
+                    <img class="img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ </br>проектов</p>
+                    <img class="img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ </br>проектов</p>
+                    <img class="img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ </br>проектов</p>
+                    <img class="img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ </br>проектов</p>                  
+                </div>
+            </div> 
+        </section>
+        <section class="content__3">
+            <div class="work"> 
+                <div class="work__contain">
+                    <h2>Мои навыки</h2>
+                </div> 
+                    <div class="skill"></div>
+                        <img src="../Rubber_layout/img/skills__list.jpg" alt="">
+                    </div> 
+            <div class="work_img">
+                <div class="img_2">
+                <img src="../Rubber_layout/img/face.png" alt=""></div>
             </div>
-        </div> 
+        </section>
+</main>
+        <footer class="footer">           
+                <div class="footer_text">
+                    <h3>Иванов Иван</h3> </br>(c) 2020 Все права защищены</div>
+            <div class="footer__img">
+                <img src="img/vk-social-network-logo.png" alt="">
+                <img src="img/vk-social-network-logo.png" alt="">
+                <img src="img/vk-social-network-logo.png" alt="">
+            </div>
+        </footer>
+            
 
     </div>
 <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
